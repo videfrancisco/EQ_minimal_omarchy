@@ -1,0 +1,6 @@
+# Editor / OS noise
+.DS_Store
+*.swp
+
+# Local preview assets that are not part of the plugin
+*.log

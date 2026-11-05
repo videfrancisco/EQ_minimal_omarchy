@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "francisco.eq",
+  "name": "Equalizer",
+  "version": "1.4.0",
+  "author": "Francisco",
+  "license": "MIT",
+  "description": "Equalizador de 12 faixas (20 Hz - 20 kHz) com espectro de áudio em tempo real (cava) e presets de curvas para a saída Equalizer do PipeWire.",
+  "homepage": "https://github.com/videfrancisco/EQ_minimal_omarchy",
+  "repository": "https://github.com/videfrancisco/EQ_minimal_omarchy",
+  "keywords": [
+    "eq",
+    "equalizer",
+    "spectrum",
+    "presets",
+    "audio"
+  ],
+  "kinds": [
+    "bar-widget",
+    "panel"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "barWidget": "BarWidget.qml",
+    "panel": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Equalizer",
+    "description": "Abre o equalizador de 12 faixas com espectro de áudio",
+    "category": "Utilities",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
