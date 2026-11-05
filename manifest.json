@@ -5,7 +5,7 @@
   "version": "1.4.0",
   "author": "Francisco",
   "license": "MIT",
-  "description": "Equalizador de 12 faixas (20 Hz - 20 kHz) com espectro de áudio em tempo real (cava) e presets de curvas para a saída Equalizer do PipeWire.",
+  "description": "12-band equalizer (20 Hz - 20 kHz) with a real-time audio spectrum (cava) and curve presets for the PipeWire Equalizer output.",
   "homepage": "https://github.com/videfrancisco/EQ_minimal_omarchy",
   "repository": "https://github.com/videfrancisco/EQ_minimal_omarchy",
   "keywords": [
@@ -26,7 +26,7 @@
   },
   "barWidget": {
     "displayName": "Equalizer",
-    "description": "Abre o equalizador de 12 faixas com espectro de áudio",
+    "description": "Opens the 12-band equalizer with an audio spectrum",
     "category": "Utilities",
     "allowMultiple": false,
     "defaultSection": "right"
