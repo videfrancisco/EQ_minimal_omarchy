@@ -1,5 +1,7 @@
 # Equalizer (omarchy plugin)
 
+![Equalizer panel preview](preview.png)
+
 12-band equalizer (20 Hz – 20 kHz) for the Omarchy shell, with a real-time
 audio spectrum (via [cava](https://github.com/karlstav/cava)) and named curve
 presets. It drives the PipeWire `Equalizer` sink, built from a filter-chain, so
